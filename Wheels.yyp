@@ -15,6 +15,8 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Bullets","folderPath":"folders/Objects/Bullets.yy","name":"Bullets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Towers","folderPath":"folders/Objects/Towers.yy","name":"Towers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,9 +38,11 @@
   },
   "name":"Wheels",
   "resources":[
+    
     {"id":{"name":"Main_Room","path":"rooms/Main_Room/Main_Room.yy",},},
     {"id":{"name":"towerDefense_tilesheet","path":"sprites/towerDefense_tilesheet/towerDefense_tilesheet.yy",},},
     {"id":{"name":"Tileset_Ground","path":"tilesets/Tileset_Ground/Tileset_Ground.yy",},},
+
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
