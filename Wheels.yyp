@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":2,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -36,6 +36,7 @@
   },
   "name":"Wheels",
   "resources":[
+    {"id":{"name":"obj_basicWheel","path":"objects/obj_basicWheel/obj_basicWheel.yy",},},
     {"id":{"name":"obj_CarTire","path":"objects/obj_CarTire/obj_CarTire.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spt_CarTire","path":"sprites/spt_CarTire/spt_CarTire.yy",},},
