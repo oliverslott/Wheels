@@ -36,8 +36,8 @@
   },
   "name":"Wheels",
   "resources":[
-    {"id":{"name":"obj_projectile_parent","path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},},
-    {"id":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},},
+    {"id":{"name":"obj_projectile1","path":"objects/obj_projectile1/obj_projectile1.yy",},},
+    {"id":{"name":"obj_tower1","path":"objects/obj_tower1/obj_tower1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "resourceType":"GMProject",

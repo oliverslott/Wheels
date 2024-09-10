@@ -21,5 +21,4 @@ if (target != noone) {
         alarm[0] = 30; //skyder på fjende hver sekundt i 30 fps spil
 		
     }
-alarm[0] = -1; // Reset the cooldown when it's up
 }
