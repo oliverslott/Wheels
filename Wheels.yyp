@@ -34,12 +34,18 @@
   },
   "name":"Wheels",
   "resources":[
+    {"id":{"name":"PathFindingNode_Obj","path":"objects/PathFindingNode_Obj/PathFindingNode_Obj.yy",},},
+    {"id":{"name":"PathTest_Obj","path":"objects/PathTest_Obj/PathTest_Obj.yy",},},
+    {"id":{"name":"PathTestRoom","path":"rooms/PathTestRoom/PathTestRoom.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"towerDefense_tile135","path":"sprites/towerDefense_tile135/towerDefense_tile135.yy",},},
+    {"id":{"name":"towerDefense_tile270","path":"sprites/towerDefense_tile270/towerDefense_tile270.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"PathTestRoom","path":"rooms/PathTestRoom/PathTestRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
