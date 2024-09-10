@@ -1,16 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projectile1",
+  "%Name":"obj_evilwheel",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_projectile1","path":"objects/obj_projectile1/obj_projectile1.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_projectile1",
+  "name":"obj_evilwheel",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Objects/Bullets.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"tempospwrite",
-    "path":"sprites/tempospwrite/tempospwrite.yy",
+    "name":"tempsprite",
+    "path":"sprites/tempsprite/tempsprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
