@@ -40,6 +40,7 @@
   },
   "name":"Wheels",
   "resources":[
+    {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},
     {"id":{"name":"obj_basicWheel","path":"objects/obj_basicWheel/obj_basicWheel.yy",},},
     {"id":{"name":"obj_CarTire","path":"objects/obj_CarTire/obj_CarTire.yy",},},
     {"id":{"name":"Main_Room","path":"rooms/Main_Room/Main_Room.yy",},},

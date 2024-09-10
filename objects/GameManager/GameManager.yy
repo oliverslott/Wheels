@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_CarTire",
+  "%Name":"GameManager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_CarTire",
+  "name":"GameManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Wheels",
-    "path":"folders/Objects/Wheels.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_basicWheel",
-    "path":"objects/obj_basicWheel/obj_basicWheel.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spt_CarTire",
-    "path":"sprites/spt_CarTire/spt_CarTire.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
