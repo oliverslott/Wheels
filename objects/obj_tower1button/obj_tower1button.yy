@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tower1clk",
+  "%Name":"obj_tower1button",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tower1clk",
+  "name":"obj_tower1button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Towers Clickables",
-    "path":"folders/Objects/Towers/Towers Clickables.yy",
+    "name":"Towers",
+    "path":"folders/Objects/Towers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"temppo",
+    "path":"sprites/temppo/temppo.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
