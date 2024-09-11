@@ -29,7 +29,6 @@
           148,172,241,98,98,219,174,150,24,24,209,105,81,79,-3,80,6,81,74,101,148,175,217,-3,98,7,243,219,172,
           24,24,233,209,-9,172,2,217,244,-6,98,-6,24,3,74,75,101,-12,98,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tileset_Ground","path":"tilesets/Tileset_Ground/Tileset_Ground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Main_Room2",
   "parent":{
