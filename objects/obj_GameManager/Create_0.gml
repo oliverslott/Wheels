@@ -37,7 +37,21 @@ function ReduceLives(ReducedLives) {	/// @DnDAction : YoYo Games.Common.Variab
 	/// @DnDArgument : "expr" "-ReducedLives"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "Lives"
-	Lives += -ReducedLives;}
+	Lives += -ReducedLives;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4664534B
+	/// @DnDParent : 73283D7E
+	/// @DnDArgument : "var" "Lives"
+	/// @DnDArgument : "op" "3"
+	if(Lives <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 31460300
+		/// @DnDParent : 4664534B
+		/// @DnDArgument : "room" "EndScreen"
+		/// @DnDSaveInfo : "room" "EndScreen"
+		room_goto(EndScreen);}}
 
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
