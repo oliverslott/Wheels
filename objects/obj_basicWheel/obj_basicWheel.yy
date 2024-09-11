@@ -12,7 +12,10 @@
     "name":"Wheels",
     "path":"folders/Objects/Wheels.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"PathTest_Obj",
+    "path":"objects/PathTest_Obj/PathTest_Obj.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
