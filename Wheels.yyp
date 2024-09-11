@@ -61,6 +61,8 @@
     {"id":{"name":"obj_StartButton","path":"objects/obj_StartButton/obj_StartButton.yy",},},
     {"id":{"name":"obj_StartScreenManager","path":"objects/obj_StartScreenManager/obj_StartScreenManager.yy",},},
     {"id":{"name":"obj_TitleText","path":"objects/obj_TitleText/obj_TitleText.yy",},},
+    {"id":{"name":"obj_tower1_button","path":"objects/obj_tower1_button/obj_tower1_button.yy",},},
+    {"id":{"name":"obj_tower1_drag","path":"objects/obj_tower1_drag/obj_tower1_drag.yy",},},
     {"id":{"name":"obj_tower1","path":"objects/obj_tower1/obj_tower1.yy",},},
     {"id":{"name":"Object_hud_background","path":"objects/Object_hud_background/Object_hud_background.yy",},},
     {"id":{"name":"Object_hud_coin","path":"objects/Object_hud_coin/Object_hud_coin.yy",},},
