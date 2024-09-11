@@ -55,6 +55,7 @@
     {"id":{"name":"obj_tower1","path":"objects/obj_tower1/obj_tower1.yy",},},
     {"id":{"name":"Object_hud_background","path":"objects/Object_hud_background/Object_hud_background.yy",},},
     {"id":{"name":"Object_hud_coin","path":"objects/Object_hud_coin/Object_hud_coin.yy",},},
+    {"id":{"name":"Main_Room2","path":"rooms/Main_Room2/Main_Room2.yy",},},
     {"id":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
     {"id":{"name":"seq_game_hud","path":"sequences/seq_game_hud/seq_game_hud.yy",},},
     {"id":{"name":"hud_background","path":"sprites/hud_background/hud_background.yy",},},
@@ -70,7 +71,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-        {"roomId":{"name":"Main_Room","path":"rooms/Main_Room/Main_Room.yy",},},
+    {"roomId":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
+    {"roomId":{"name":"Main_Room2","path":"rooms/Main_Room2/Main_Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
