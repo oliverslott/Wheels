@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 33D1DAA3
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "IsGamePaused"
+IsGamePaused = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 316C6467
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "100"
