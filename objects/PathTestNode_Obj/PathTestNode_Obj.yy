@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_CarTire",
+  "%Name":"PathTestNode_Obj",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_CarTire",
+  "name":"PathTestNode_Obj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Wheels",
-    "path":"folders/Objects/Wheels.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"PathTest_Obj",
-    "path":"objects/PathTest_Obj/PathTest_Obj.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spt_CarTire",
-    "path":"sprites/spt_CarTire/spt_CarTire.yy",
+    "name":"towerDefense_tile135",
+    "path":"sprites/towerDefense_tile135/towerDefense_tile135.yy",
   },
   "spriteMaskId":null,
   "visible":true,

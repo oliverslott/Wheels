@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_CarTire",
+  "%Name":"timer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_CarTire",
+  "name":"timer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Wheels",
-    "path":"folders/Objects/Wheels.yy",
+    "name":"Timer_hud",
+    "path":"folders/Objects/HUD/Timer_hud.yy",
   },
-  "parentObjectId":{
-    "name":"PathTest_Obj",
-    "path":"objects/PathTest_Obj/PathTest_Obj.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spt_CarTire",
-    "path":"sprites/spt_CarTire/spt_CarTire.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_CarTire",
+  "%Name":"obj_tower1button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_CarTire",
+  "name":"obj_tower1button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Wheels",
-    "path":"folders/Objects/Wheels.yy",
+    "name":"Towers",
+    "path":"folders/Objects/Towers.yy",
   },
-  "parentObjectId":{
-    "name":"PathTest_Obj",
-    "path":"objects/PathTest_Obj/PathTest_Obj.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spt_CarTire",
-    "path":"sprites/spt_CarTire/spt_CarTire.yy",
+    "name":"temppo",
+    "path":"sprites/temppo/temppo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

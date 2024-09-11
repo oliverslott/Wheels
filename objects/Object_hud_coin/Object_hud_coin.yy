@@ -9,8 +9,8 @@
   "name":"Object_hud_coin",
   "overriddenProperties":[],
   "parent":{
-    "name":"HUD",
-    "path":"folders/Objects/HUD.yy",
+    "name":"Coins_Hud",
+    "path":"folders/Objects/HUD/Coins_Hud.yy",
   },
   "parentObjectId":null,
   "persistent":false,
