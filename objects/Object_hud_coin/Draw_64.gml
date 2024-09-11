@@ -9,4 +9,4 @@ draw_self();
 
 draw_set_font(Ft_Hud);
 
-draw_text(x + -100, y + 0, string("") + string(global.coins));
+draw_text(x + -100, y + 0, string("") + string(global.Coins));
