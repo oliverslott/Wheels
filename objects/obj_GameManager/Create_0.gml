@@ -10,11 +10,11 @@ IsGamePaused = false;
 /// @DnDHash : 316C6467
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "100"
-/// @DnDArgument : "expr_1" "120"
+/// @DnDArgument : "expr_1" "100"
 /// @DnDArgument : "var" "Coins"
 /// @DnDArgument : "var_1" "Lives"
 Coins = 100;
-Lives = 120;
+Lives = 100;
 
 /// @DnDAction : YoYo Games.Sequences.Sequence_Create
 /// @DnDVersion : 1
