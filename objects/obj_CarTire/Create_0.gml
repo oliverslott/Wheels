@@ -1,8 +1,3 @@
-/// @DnDAction : YoYo Games.Instances.Inherit_Event
-/// @DnDVersion : 1
-/// @DnDHash : 68AAABDD
-event_inherited();
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 26CA8E97
@@ -24,3 +19,8 @@ Mvnt_Speed = 1;
 /// @DnDArgument : "var_1" "LivesOnPass"
 CoinsOnDeath = 5;
 LivesOnPass = 5;
+
+/// @DnDAction : YoYo Games.Instances.Inherit_Event
+/// @DnDVersion : 1
+/// @DnDHash : 3A40E234
+event_inherited();
