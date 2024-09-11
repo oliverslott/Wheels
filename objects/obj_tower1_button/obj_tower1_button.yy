@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Object_hud_coin",
+  "%Name":"obj_tower1_button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object_hud_coin",
+  "name":"obj_tower1_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Coins_Hud",
-    "path":"folders/Objects/HUD/Coins_Hud.yy",
+    "name":"Towers",
+    "path":"folders/Objects/Towers.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"hud_coin",
-    "path":"sprites/hud_coin/hud_coin.yy",
+    "name":"towerDefense_tile203",
+    "path":"sprites/towerDefense_tile203/towerDefense_tile203.yy",
   },
   "spriteMaskId":null,
   "visible":true,
