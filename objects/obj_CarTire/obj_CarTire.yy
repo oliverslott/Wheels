@@ -12,8 +12,8 @@
     "path":"folders/Objects/Wheels.yy",
   },
   "parentObjectId":{
-    "name":"obj_basicWheel",
-    "path":"objects/obj_basicWheel/obj_basicWheel.yy",
+    "name":"PathTest_Obj",
+    "path":"objects/PathTest_Obj/PathTest_Obj.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
