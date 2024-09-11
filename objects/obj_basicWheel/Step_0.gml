@@ -48,9 +48,9 @@ if(!(tempIsGamePaused)){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 394B212A
 			/// @DnDParent : 29D169C4
-			/// @DnDArgument : "function" "AddedCoins"
+			/// @DnDArgument : "function" "AddCoins"
 			/// @DnDArgument : "arg" "CoinsOnDeathTemp"
-			AddedCoins(CoinsOnDeathTemp);
+			AddCoins(CoinsOnDeathTemp);
 		}
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
