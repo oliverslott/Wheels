@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (obj_GameManager.IsGamePaused = true) {
+
+} else {
+
 var range = 150; //Shooting range
 
 var target = noone;
@@ -24,5 +28,5 @@ if (nearest_enemy != noone) {
 		
 	}
 
-
+}
 
