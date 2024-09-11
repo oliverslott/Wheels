@@ -5,11 +5,19 @@
 with(obj_GameManager) {
 	/// @DnDAction : YoYo Games.Common.Temp_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 6E33F8B8
+	/// @DnDHash : 5B31F91E
 	/// @DnDParent : 084F5D49
 	/// @DnDArgument : "var" "tempIsGamePaused"
 	/// @DnDArgument : "value" "IsGamePaused"
 	var tempIsGamePaused = IsGamePaused;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 765BF3E7
+	/// @DnDDisabled : 1
+	/// @DnDParent : 084F5D49
+	/// @DnDArgument : "expr" "IsGamePaused"
+	/// @DnDArgument : "var" "tempIsGamePaused"
 }
 
 /// @DnDAction : YoYo Games.Common.If_Expression
@@ -78,10 +86,10 @@ if(!(tempIsGamePaused)){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 2857B8CD
 			/// @DnDParent : 07D193DA
-			/// @DnDArgument : "expr" "-LivesOnPass"
+			/// @DnDArgument : "expr" "LivesOnPass"
 			/// @DnDArgument : "expr_relative" "1"
 			/// @DnDArgument : "var" "Lives"
-			Lives += -LivesOnPass;
+			Lives += LivesOnPass;
 		}
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
