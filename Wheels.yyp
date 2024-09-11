@@ -53,7 +53,6 @@
     {"id":{"name":"obj_tower1button","path":"objects/obj_tower1button/obj_tower1button.yy",},},
     {"id":{"name":"Object_hud_background","path":"objects/Object_hud_background/Object_hud_background.yy",},},
     {"id":{"name":"Object_hud_coin","path":"objects/Object_hud_coin/Object_hud_coin.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"seq_game_hud","path":"sequences/seq_game_hud/seq_game_hud.yy",},},
     {"id":{"name":"hud_background","path":"sprites/hud_background/hud_background.yy",},},
     {"id":{"name":"hud_coin","path":"sprites/hud_coin/hud_coin.yy",},},
@@ -66,9 +65,7 @@
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
-  "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-  ],
+  "RoomOrderNodes":[],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
