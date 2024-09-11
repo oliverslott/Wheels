@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Delete_this",
-  "eventList":[],
+  "%Name":"obj_StartButton",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Delete_this",
+  "name":"obj_StartButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Wheels",
-    "path":"folders/Objects/Wheels.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_Button",
+    "path":"objects/obj_Button/obj_Button.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spt_StartButton",
+    "path":"sprites/spt_StartButton/spt_StartButton.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
