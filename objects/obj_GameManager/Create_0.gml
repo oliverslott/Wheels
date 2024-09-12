@@ -20,7 +20,16 @@ Lives = 120;
 /// @DnDVersion : 1
 /// @DnDHash : 690ACBAF
 /// @DnDArgument : "var" ""
-/// @DnDArgument : "sequenceid" "seq_game_hud"
+/// @DnDArgument : "sequenceid" "seq_coin_hud"
 /// @DnDArgument : "layer" ""Instances""
-/// @DnDSaveInfo : "sequenceid" "seq_game_hud"
-layer_sequence_create("Instances", 0, 0, seq_game_hud);
+/// @DnDSaveInfo : "sequenceid" "seq_coin_hud"
+layer_sequence_create("Instances", 0, 0, seq_coin_hud);
+
+/// @DnDAction : YoYo Games.Sequences.Sequence_Create
+/// @DnDVersion : 1
+/// @DnDHash : 08E83CE9
+/// @DnDArgument : "var" ""
+/// @DnDArgument : "sequenceid" "seq_HP_hud"
+/// @DnDArgument : "layer" ""Instances""
+/// @DnDSaveInfo : "sequenceid" "seq_HP_hud"
+layer_sequence_create("Instances", 0, 0, seq_HP_hud);
