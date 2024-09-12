@@ -47,7 +47,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Wheels",
   "resources":[
@@ -92,6 +92,7 @@
     {"id":{"name":"PathTestRoom","path":"rooms/PathTestRoom/PathTestRoom.yy",},},
     {"id":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
     {"id":{"name":"Win_Screen","path":"rooms/Win_Screen/Win_Screen.yy",},},
+    {"id":{"name":"Drag_Script","path":"scripts/Drag_Script/Drag_Script.yy",},},
     {"id":{"name":"seq_coin_hud","path":"sequences/seq_coin_hud/seq_coin_hud.yy",},},
     {"id":{"name":"seq_HP_hud","path":"sequences/seq_HP_hud/seq_HP_hud.yy",},},
     {"id":{"name":"Axe","path":"sprites/Axe/Axe.yy",},},
