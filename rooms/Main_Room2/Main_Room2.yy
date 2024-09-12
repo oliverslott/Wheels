@@ -35,6 +35,7 @@
     {"name":"inst_6B72C666","path":"rooms/Main_Room2/Main_Room2.yy",},
     {"name":"inst_650A47DC","path":"rooms/Main_Room2/Main_Room2.yy",},
     {"name":"inst_4E0AA134","path":"rooms/Main_Room2/Main_Room2.yy",},
+    {"name":"inst_49F51C59","path":"rooms/Main_Room2/Main_Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -70,16 +71,16 @@
         {"$GMRInstance":"v1","%Name":"inst_650A47DC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_650A47DC","objectId":{"name":"obj_tower2_button","path":"objects/obj_tower2_button/obj_tower2_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":224.0,},
         {"$GMRInstance":"v1","%Name":"inst_4E0AA134","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4E0AA134","objectId":{"name":"obj_tower3_button","path":"objects/obj_tower3_button/obj_tower3_button.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":480.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tile_decor","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_decor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":21,"TileCompressedData":[
+    {"$GMRInstanceLayer":"","%Name":"timer","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_49F51C59","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49F51C59","objectId":{"name":"timer","path":"objects/timer/timer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":96.0,},
+      ],"layers":[],"name":"timer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"Tile_decor","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_decor","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":21,"TileCompressedData":[
           2,-2147483648,134,-5,-2147483648,5,130,0,-2147483648,-2147483648,132,-15,-2147483648,1,134,-11,-2147483648,
           1,134,-5,-2147483648,1,132,-8,-2147483648,4,134,-2147483648,-2147483648,130,-46,-2147483648,1,132,-6,
           -2147483648,1,132,-15,-2147483648,1,134,-10,-2147483648,1,134,-3,-2147483648,1,134,-12,-2147483648,1,
           130,-15,-2147483648,1,132,-12,-2147483648,1,135,-3,-2147483648,1,137,-10,-2147483648,1,132,-31,-2147483648,
           1,134,-4,-2147483648,1,130,-6,-2147483648,1,137,-6,-2147483648,2,136,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"Tileset_Ground","path":"tilesets/Tileset_Ground/Tileset_Ground.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRInstanceLayer":"","%Name":"timer","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_49F51C59","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_49F51C59","objectId":{"name":"timer","path":"objects/timer/timer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":96.0,},
-      ],"layers":[],"name":"timer","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tile_Map","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tile_Map","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":21,"TileCompressedData":[
           -42,24,-5,80,1,81,-15,24,-9,103,2,253,81,-17,24,4,125,83,103,104,-3,24,5,210,255,103,103,253,-7,24,6,
           79,80,80,106,172,104,-3,24,5,255,82,127,125,172,-4,24,2,210,255,-5,172,2,207,127,-3,24,12,172,127,74,
