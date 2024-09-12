@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 039CDC78
-/// @DnDArgument : "expr" "120"
+/// @DnDArgument : "expr" "5"
 /// @DnDArgument : "var" "Count_Down"
-Count_Down = 120;
+Count_Down = 5;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
