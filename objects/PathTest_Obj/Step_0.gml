@@ -111,10 +111,10 @@ if(!(NearestObject == 0)){	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Sho
 	/// @DnDHash : 1C762223
 	/// @DnDInput : 2
 	/// @DnDParent : 2B230980
-	/// @DnDArgument : "value" "x_dir*3"
+	/// @DnDArgument : "value" "x_dir*Mvnt_Speed"
 	/// @DnDArgument : "value_relative" "1"
-	/// @DnDArgument : "value_1" "y_dir*3"
+	/// @DnDArgument : "value_1" "y_dir*Mvnt_Speed"
 	/// @DnDArgument : "value_relative_1" "1"
 	/// @DnDArgument : "instvar_1" "1"
-	x += x_dir*3;
-	y += y_dir*3;}
+	x += x_dir*Mvnt_Speed;
+	y += y_dir*Mvnt_Speed;}

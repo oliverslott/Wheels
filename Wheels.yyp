@@ -52,6 +52,7 @@
   "resources":[
     {"id":{"name":"Ft_Hud","path":"fonts/Ft_Hud/Ft_Hud.yy",},},
     {"id":{"name":"obj_basicWheel","path":"objects/obj_basicWheel/obj_basicWheel.yy",},},
+    {"id":{"name":"obj_BikeTire","path":"objects/obj_BikeTire/obj_BikeTire.yy",},},
     {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
     {"id":{"name":"obj_CarTire","path":"objects/obj_CarTire/obj_CarTire.yy",},},
     {"id":{"name":"obj_evilwheel","path":"objects/obj_evilwheel/obj_evilwheel.yy",},},
@@ -80,6 +81,8 @@
     {"id":{"name":"hud_background","path":"sprites/hud_background/hud_background.yy",},},
     {"id":{"name":"hud_coin","path":"sprites/hud_coin/hud_coin.yy",},},
     {"id":{"name":"PauseScreen","path":"sprites/PauseScreen/PauseScreen.yy",},},
+    {"id":{"name":"spr_EndScreen","path":"sprites/spr_EndScreen/spr_EndScreen.yy",},},
+    {"id":{"name":"spt_BikeWheel","path":"sprites/spt_BikeWheel/spt_BikeWheel.yy",},},
     {"id":{"name":"spt_CarTire","path":"sprites/spt_CarTire/spt_CarTire.yy",},},
     {"id":{"name":"spt_RestartButton","path":"sprites/spt_RestartButton/spt_RestartButton.yy",},},
     {"id":{"name":"spt_StartButton","path":"sprites/spt_StartButton/spt_StartButton.yy",},},
