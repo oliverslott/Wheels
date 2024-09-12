@@ -9,16 +9,15 @@ Count_Down += -1;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 3ADF33F0
-/// @DnDArgument : "steps" "120"
-alarm_set(0, 120);
+/// @DnDArgument : "steps" "room_speed"
+alarm_set(0, room_speed);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2F6CD738
 /// @DnDArgument : "var" "Count_Down"
-/// @DnDArgument : "op" "1"
-/// @DnDArgument : "value" "1"
-if(Count_Down < 1){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDArgument : "op" "3"
+if(Count_Down <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 7CC9B9F9
 	/// @DnDParent : 2F6CD738
