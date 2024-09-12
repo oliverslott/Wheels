@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"tempsprite",
-    "path":"sprites/tempsprite/tempsprite.yy",
+    "name":"tower3sprite",
+    "path":"sprites/tower3sprite/tower3sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
