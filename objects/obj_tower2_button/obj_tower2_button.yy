@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Axeman",
-    "path":"sprites/Axeman/Axeman.yy",
+    "name":"Axeman2",
+    "path":"sprites/Axeman2/Axeman2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
