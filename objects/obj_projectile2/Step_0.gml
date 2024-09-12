@@ -5,7 +5,7 @@ if (instance_exists(target)) {
 	
 	if (point_distance(x, y, target.x, target.y) < 10) {
         with (target) {
-            Health -= 10;
+            Health -= 15;
 		}
 		instance_destroy();
 	 }
