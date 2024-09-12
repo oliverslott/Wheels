@@ -1,26 +1,26 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 26CA8E97
+/// @DnDHash : 0223041B
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "40"
-/// @DnDArgument : "expr_1" "3"
+/// @DnDArgument : "expr" "20"
+/// @DnDArgument : "expr_1" "6"
 /// @DnDArgument : "var" "Health"
 /// @DnDArgument : "var_1" "Mvnt_Speed"
-Health = 40;
-Mvnt_Speed = 3;
+Health = 20;
+Mvnt_Speed = 6;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 3C48B7B0
+/// @DnDHash : 349165D8
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "5"
+/// @DnDArgument : "expr" "10"
 /// @DnDArgument : "expr_1" "10"
 /// @DnDArgument : "var" "CoinsOnDeath"
 /// @DnDArgument : "var_1" "LivesOnPass"
-CoinsOnDeath = 5;
+CoinsOnDeath = 10;
 LivesOnPass = 10;
 
 /// @DnDAction : YoYo Games.Instances.Inherit_Event
 /// @DnDVersion : 1
-/// @DnDHash : 3A40E234
+/// @DnDHash : 031C9B7C
 event_inherited();

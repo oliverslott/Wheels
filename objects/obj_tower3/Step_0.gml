@@ -9,7 +9,7 @@ var range = 1500; //Shooting range
 var target = noone;
 var min_distance = range;
 
-var nearest_enemy = instance_nearest(x,y,obj_CarTire); //indsæt fjender i parentes
+var nearest_enemy = instance_nearest(x,y,obj_basicWheel); //indsæt fjender i parentes
 if (nearest_enemy != noone) {
 
 	var distance_to_enemy = point_distance(x, y, nearest_enemy.x, nearest_enemy.y);
