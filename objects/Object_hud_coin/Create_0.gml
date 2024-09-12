@@ -1,0 +1,1 @@
+var global.Coins = 100;

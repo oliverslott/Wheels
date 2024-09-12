@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_basicWheel",
+  "%Name":"obj_StartScreenManager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_basicWheel",
+  "name":"obj_StartScreenManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Wheels",
-    "path":"folders/Objects/Wheels.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"PathTest_Obj",
-    "path":"objects/PathTest_Obj/PathTest_Obj.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

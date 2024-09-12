@@ -5,7 +5,7 @@
 with(obj_GameManager) {
 	/// @DnDAction : YoYo Games.Common.Temp_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 6E33F8B8
+	/// @DnDHash : 5B31F91E
 	/// @DnDParent : 084F5D49
 	/// @DnDArgument : "var" "tempIsGamePaused"
 	/// @DnDArgument : "value" "IsGamePaused"
@@ -29,14 +29,28 @@ if(!(tempIsGamePaused)){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDApplyTo : {obj_GameManager}
 		/// @DnDParent : 73CB2036
 		with(obj_GameManager) {
-			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDAction : YoYo Games.Common.Apply_To
 			/// @DnDVersion : 1
-			/// @DnDHash : 4D3489A2
+			/// @DnDHash : 30B33219
+			/// @DnDApplyTo : {obj_basicWheel}
 			/// @DnDParent : 29D169C4
-			/// @DnDArgument : "expr" "CoinsOnDeath"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "Coins"
-			Coins += CoinsOnDeath;
+			with(obj_basicWheel) {
+				/// @DnDAction : YoYo Games.Common.Temp_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 23C77A18
+				/// @DnDParent : 30B33219
+				/// @DnDArgument : "var" "CoinsOnDeathTemp"
+				/// @DnDArgument : "value" "CoinsOnDeath"
+				var CoinsOnDeathTemp = CoinsOnDeath;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.Function_Call
+			/// @DnDVersion : 1
+			/// @DnDHash : 394B212A
+			/// @DnDParent : 29D169C4
+			/// @DnDArgument : "function" "AddCoins"
+			/// @DnDArgument : "arg" "CoinsOnDeathTemp"
+			AddCoins(CoinsOnDeathTemp);
 		}
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
@@ -45,13 +59,11 @@ if(!(tempIsGamePaused)){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDParent : 73CB2036
 		instance_destroy();}
 
-	/// @DnDAction : YoYo Games.Instances.Set_Instance_Var
+	/// @DnDAction : YoYo Games.Instances.Inherit_Event
 	/// @DnDVersion : 1
-	/// @DnDHash : 504B6334
+	/// @DnDHash : 12F7235E
 	/// @DnDParent : 2E34F521
-	/// @DnDArgument : "value" "Mvnt_Speed"
-	/// @DnDArgument : "value_relative" "1"
-	x += Mvnt_Speed;
+	event_inherited();
 
 	/// @DnDAction : YoYo Games.Instances.Get_Instance_Var
 	/// @DnDVersion : 1
@@ -74,18 +86,32 @@ if(!(tempIsGamePaused)){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDApplyTo : {obj_GameManager}
 		/// @DnDParent : 08CCB422
 		with(obj_GameManager) {
-			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDAction : YoYo Games.Common.Apply_To
 			/// @DnDVersion : 1
-			/// @DnDHash : 2857B8CD
+			/// @DnDHash : 176DE562
+			/// @DnDApplyTo : {obj_basicWheel}
 			/// @DnDParent : 07D193DA
-			/// @DnDArgument : "expr" "-LivesOnPass"
-			/// @DnDArgument : "expr_relative" "1"
-			/// @DnDArgument : "var" "Lives"
-			Lives += -LivesOnPass;
+			with(obj_basicWheel) {
+				/// @DnDAction : YoYo Games.Common.Temp_Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 3DBFCF51
+				/// @DnDParent : 176DE562
+				/// @DnDArgument : "var" "LivesOnPassTemp"
+				/// @DnDArgument : "value" "LivesOnPass"
+				var LivesOnPassTemp = LivesOnPass;
+			}
+		
+			/// @DnDAction : YoYo Games.Common.Function_Call
+			/// @DnDVersion : 1
+			/// @DnDHash : 2B775AC4
+			/// @DnDParent : 07D193DA
+			/// @DnDArgument : "function" "ReduceLives"
+			/// @DnDArgument : "arg" "LivesOnPassTemp"
+			ReduceLives(LivesOnPassTemp);
 		}
 	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
-		/// @DnDHash : 67974B0A
+		/// @DnDHash : 611BAA50
 		/// @DnDParent : 08CCB422
 		instance_destroy();}}

@@ -7,13 +7,7 @@
 Velocity_X = 0;
 Velocity_Y = 0;
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Instances.Inherit_Event
 /// @DnDVersion : 1
-/// @DnDHash : 48FFCC2F
-/// @DnDInput : 2
-/// @DnDArgument : "expr" "10"
-/// @DnDArgument : "expr_1" "1"
-/// @DnDArgument : "var" "Health"
-/// @DnDArgument : "var_1" "Mvnt_Speed"
-Health = 10;
-Mvnt_Speed = 1;
+/// @DnDHash : 764DEA28
+event_inherited();
