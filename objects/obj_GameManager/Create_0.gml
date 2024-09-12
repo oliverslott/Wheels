@@ -23,62 +23,71 @@ Lives = 100;
 /// @DnDVersion : 1
 /// @DnDHash : 690ACBAF
 /// @DnDArgument : "var" ""
-/// @DnDArgument : "sequenceid" "seq_game_hud"
+/// @DnDArgument : "sequenceid" "seq_coin_hud"
 /// @DnDArgument : "layer" ""Instances""
-/// @DnDSaveInfo : "sequenceid" "seq_game_hud"
-layer_sequence_create("Instances", 0, 0, seq_game_hud);
+/// @DnDSaveInfo : "sequenceid" "seq_coin_hud"
+layer_sequence_create("Instances", 0, 0, seq_coin_hud);
+
+/// @DnDAction : YoYo Games.Sequences.Sequence_Create
+/// @DnDVersion : 1
+/// @DnDHash : 08E83CE9
+/// @DnDArgument : "var" ""
+/// @DnDArgument : "sequenceid" "seq_HP_hud"
+/// @DnDArgument : "layer" ""Instances""
+/// @DnDSaveInfo : "sequenceid" "seq_HP_hud"
+layer_sequence_create("Instances", 0, 0, seq_HP_hud);
 
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
-/// @DnDHash : 73283D7E
+/// @DnDHash : 5CE006EE
 /// @DnDArgument : "funcName" "ReduceLives"
 /// @DnDArgument : "arg" "ReducedLives"
 function ReduceLives(ReducedLives) {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 2E96FC84
-	/// @DnDParent : 73283D7E
-	/// @DnDArgument : "expr" "-ReducedLives"
+	/// @DnDHash : 47933D7B
+	/// @DnDParent : 5CE006EE
+	/// @DnDArgument : "expr" "-ReduceLives"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "Lives"
-	Lives += -ReducedLives;
+	/// @DnDArgument : "var" "lives"
+	lives += -ReduceLives;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 4664534B
-	/// @DnDParent : 73283D7E
+	/// @DnDHash : 00DDEE74
+	/// @DnDParent : 5CE006EE
 	/// @DnDArgument : "var" "Lives"
 	/// @DnDArgument : "op" "3"
 	if(Lives <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 		/// @DnDVersion : 1
-		/// @DnDHash : 31460300
-		/// @DnDParent : 4664534B
+		/// @DnDHash : 2ECAD721
+		/// @DnDParent : 00DDEE74
 		/// @DnDArgument : "room" "EndScreen"
 		/// @DnDSaveInfo : "room" "EndScreen"
 		room_goto(EndScreen);}}
 
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
-/// @DnDHash : 7EAD9C10
+/// @DnDHash : 381A3EAF
 /// @DnDArgument : "funcName" "ReduceCoins"
-/// @DnDArgument : "arg" "ReducedCoins"
-function ReduceCoins(ReducedCoins) {	/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDArgument : "arg" "ReducedCoin"
+function ReduceCoins(ReducedCoin) {	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
-	/// @DnDHash : 725FF738
-	/// @DnDParent : 7EAD9C10
-	/// @DnDArgument : "value" "-ReducedCoins"
+	/// @DnDHash : 66B50111
+	/// @DnDParent : 381A3EAF
+	/// @DnDArgument : "value" "-ReduceCoins"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "Coins"
-	global.Coins += -ReducedCoins;}
+	global.Coins += -ReduceCoins;}
 
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
-/// @DnDHash : 26A0BB27
+/// @DnDHash : 18C4A7E4
 /// @DnDArgument : "funcName" "AddCoins"
 /// @DnDArgument : "arg" "AddedCoins"
 function AddCoins(AddedCoins) {	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
-	/// @DnDHash : 3AF125B5
-	/// @DnDParent : 26A0BB27
+	/// @DnDHash : 7BB027B2
+	/// @DnDParent : 18C4A7E4
 	/// @DnDArgument : "value" "AddedCoins"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "Coins"

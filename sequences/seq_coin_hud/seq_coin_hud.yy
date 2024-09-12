@@ -1,6 +1,6 @@
 {
   "$GMSequence":"",
-  "%Name":"seq_game_hud",
+  "%Name":"seq_coin_hud",
   "autoRecord":true,
   "backdropHeight":768,
   "backdropImageOpacity":0.5,
@@ -24,7 +24,7 @@
     "resourceType":"KeyframeStore<MomentsEventKeyframe>",
     "resourceVersion":"2.0",
   },
-  "name":"seq_game_hud",
+  "name":"seq_coin_hud",
   "parent":{
     "name":"Sequences",
     "path":"folders/Sequences.yy",
