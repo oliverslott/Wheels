@@ -12,7 +12,8 @@ function MyFunctionName(x, y) {	/// @DnDAction : YoYo Games.Random.Get_Random_
 	/// @DnDArgument : "var" "wheelType"
 	/// @DnDArgument : "var_temp" "1"
 	/// @DnDArgument : "type" "1"
-	var wheelType = floor(random_range(0, 1 + 1));
+	/// @DnDArgument : "max" "2"
+	var wheelType = floor(random_range(0, 2 + 1));
 
 	/// @DnDAction : YoYo Games.Switch.Switch
 	/// @DnDVersion : 1
@@ -46,7 +47,22 @@ function MyFunctionName(x, y) {	/// @DnDAction : YoYo Games.Random.Get_Random_
 			/// @DnDArgument : "ypos" "y"
 			/// @DnDArgument : "objectid" "obj_BikeTire"
 			/// @DnDSaveInfo : "objectid" "obj_BikeTire"
-			instance_create_layer(x, y, "Instances", obj_BikeTire);	break;}}
+			instance_create_layer(x, y, "Instances", obj_BikeTire);	break;
+	
+		/// @DnDAction : YoYo Games.Switch.Case
+		/// @DnDVersion : 1
+		/// @DnDHash : 70D3F652
+		/// @DnDParent : 47D58FC2
+		/// @DnDArgument : "const" "2"
+		case 2:	/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 2B608A1E
+			/// @DnDParent : 70D3F652
+			/// @DnDArgument : "xpos" "x"
+			/// @DnDArgument : "ypos" "y"
+			/// @DnDArgument : "objectid" "obj_TandHjul"
+			/// @DnDSaveInfo : "objectid" "obj_TandHjul"
+			instance_create_layer(x, y, "Instances", obj_TandHjul);	break;}}
 
 /// @DnDAction : YoYo Games.Time.Time_Source_Create
 /// @DnDVersion : 1
