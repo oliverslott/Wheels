@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"temppo",
-    "path":"sprites/temppo/temppo.yy",
+    "name":"Axeman",
+    "path":"sprites/Axeman/Axeman.yy",
   },
   "spriteMaskId":null,
   "visible":true,
