@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tower1_button",
+  "%Name":"obj_tower2_button",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tower1_button",
+  "name":"obj_tower2_button",
   "overriddenProperties":[],
   "parent":{
     "name":"Towers",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"towerDefense_tile203",
-    "path":"sprites/towerDefense_tile203/towerDefense_tile203.yy",
+    "name":"temppo",
+    "path":"sprites/temppo/temppo.yy",
   },
   "spriteMaskId":null,
   "visible":true,
