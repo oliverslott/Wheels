@@ -53,6 +53,7 @@
   "resources":[
     {"id":{"name":"Ft_Hud_HP","path":"fonts/Ft_Hud_HP/Ft_Hud_HP.yy",},},
     {"id":{"name":"Ft_Hud","path":"fonts/Ft_Hud/Ft_Hud.yy",},},
+    {"id":{"name":"Ft_Win","path":"fonts/Ft_Win/Ft_Win.yy",},},
     {"id":{"name":"obj_basicWheel","path":"objects/obj_basicWheel/obj_basicWheel.yy",},},
     {"id":{"name":"obj_Button","path":"objects/obj_Button/obj_Button.yy",},},
     {"id":{"name":"obj_CarTire","path":"objects/obj_CarTire/obj_CarTire.yy",},},
@@ -88,6 +89,7 @@
     {"id":{"name":"Main_Room2","path":"rooms/Main_Room2/Main_Room2.yy",},},
     {"id":{"name":"PathTestRoom","path":"rooms/PathTestRoom/PathTestRoom.yy",},},
     {"id":{"name":"StartScreen","path":"rooms/StartScreen/StartScreen.yy",},},
+    {"id":{"name":"Win_Screen","path":"rooms/Win_Screen/Win_Screen.yy",},},
     {"id":{"name":"seq_coin_hud","path":"sequences/seq_coin_hud/seq_coin_hud.yy",},},
     {"id":{"name":"seq_HP_hud","path":"sequences/seq_HP_hud/seq_HP_hud.yy",},},
     {"id":{"name":"Axe","path":"sprites/Axe/Axe.yy",},},
@@ -120,6 +122,7 @@
     {"roomId":{"name":"Main_Room","path":"rooms/Main_Room/Main_Room.yy",},},
     {"roomId":{"name":"PathTestRoom","path":"rooms/PathTestRoom/PathTestRoom.yy",},},
     {"roomId":{"name":"EndScreen","path":"rooms/EndScreen/EndScreen.yy",},},
+    {"roomId":{"name":"Win_Screen","path":"rooms/Win_Screen/Win_Screen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
