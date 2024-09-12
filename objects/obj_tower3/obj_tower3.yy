@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"tower3sprite",
-    "path":"sprites/tower3sprite/tower3sprite.yy",
+    "name":"tower3sprite2",
+    "path":"sprites/tower3sprite2/tower3sprite2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

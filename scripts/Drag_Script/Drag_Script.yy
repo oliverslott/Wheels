@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Drag_Script",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Drag_Script",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

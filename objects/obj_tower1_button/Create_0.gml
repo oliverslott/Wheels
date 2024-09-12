@@ -1,2 +1,2 @@
-x = 10;
-y = room_height - sprite_height - 10;
+x = 50;
+y = room_height - sprite_height - 40;
