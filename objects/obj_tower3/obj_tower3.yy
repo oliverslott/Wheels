@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"temppo",
-    "path":"sprites/temppo/temppo.yy",
+    "name":"tower3sprite",
+    "path":"sprites/tower3sprite/tower3sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
