@@ -12,6 +12,14 @@ IsGamePaused = false;
 /// @DnDArgument : "var" "Coins"
 global.Coins = 100;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0B92610B
+/// @DnDDisabled : 1
+/// @DnDArgument : "value" "100"
+/// @DnDArgument : "var" "Lives"
+
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 316C6467
@@ -46,10 +54,10 @@ function ReduceLives(ReducedLives) {	/// @DnDAction : YoYo Games.Common.Variab
 	/// @DnDVersion : 1
 	/// @DnDHash : 47933D7B
 	/// @DnDParent : 5CE006EE
-	/// @DnDArgument : "expr" "-ReduceLives"
+	/// @DnDArgument : "expr" "-ReducedLives"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "lives"
-	lives += -ReduceLives;
+	/// @DnDArgument : "var" "Lives"
+	Lives += -ReducedLives;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -74,10 +82,10 @@ function ReduceCoins(ReducedCoin) {	/// @DnDAction : YoYo Games.Common.Set_Glo
 	/// @DnDVersion : 1
 	/// @DnDHash : 66B50111
 	/// @DnDParent : 381A3EAF
-	/// @DnDArgument : "value" "-ReduceCoins"
+	/// @DnDArgument : "value" "-ReducedCoins"
 	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "Coins"
-	global.Coins += -ReduceCoins;}
+	global.Coins += -ReducedCoins;}
 
 /// @DnDAction : YoYo Games.Common.Function
 /// @DnDVersion : 1
