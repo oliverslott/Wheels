@@ -36,3 +36,59 @@ layer_sequence_create("Instances", 0, 0, seq_coin_hud);
 /// @DnDArgument : "layer" ""Instances""
 /// @DnDSaveInfo : "sequenceid" "seq_HP_hud"
 layer_sequence_create("Instances", 0, 0, seq_HP_hud);
+
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 5CE006EE
+/// @DnDArgument : "funcName" "ReduceLives"
+/// @DnDArgument : "arg" "ReducedLives"
+function ReduceLives(ReducedLives) {	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 47933D7B
+	/// @DnDParent : 5CE006EE
+	/// @DnDArgument : "expr" "-ReduceLives"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "var" "lives"
+	lives += -ReduceLives;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 00DDEE74
+	/// @DnDParent : 5CE006EE
+	/// @DnDArgument : "var" "Lives"
+	/// @DnDArgument : "op" "3"
+	if(Lives <= 0){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 2ECAD721
+		/// @DnDParent : 00DDEE74
+		/// @DnDArgument : "room" "EndScreen"
+		/// @DnDSaveInfo : "room" "EndScreen"
+		room_goto(EndScreen);}}
+
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 381A3EAF
+/// @DnDArgument : "funcName" "ReduceCoins"
+/// @DnDArgument : "arg" "ReducedCoin"
+function ReduceCoins(ReducedCoin) {	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 66B50111
+	/// @DnDParent : 381A3EAF
+	/// @DnDArgument : "value" "-ReduceCoins"
+	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "var" "Coins"
+	global.Coins += -ReduceCoins;}
+
+/// @DnDAction : YoYo Games.Common.Function
+/// @DnDVersion : 1
+/// @DnDHash : 18C4A7E4
+/// @DnDArgument : "funcName" "AddCoins"
+/// @DnDArgument : "arg" "AddedCoins"
+function AddCoins(AddedCoins) {	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 7BB027B2
+	/// @DnDParent : 18C4A7E4
+	/// @DnDArgument : "value" "AddedCoins"
+	/// @DnDArgument : "value_relative" "1"
+	/// @DnDArgument : "var" "Coins"
+	global.Coins += AddedCoins;}
